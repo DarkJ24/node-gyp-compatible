@@ -1,3 +1,3 @@
-FROM node:14-alpine
+FROM node:18-alpine
 
-RUN apk --no-cache add make python gcc postgresql-dev g++
+RUN apk --no-cache add make python3 gcc postgresql-dev g++
